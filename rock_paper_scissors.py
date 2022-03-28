@@ -65,7 +65,7 @@ def main():
                 break
 
 
-if __name__ == "__main__"
+if __name__ == "__main__":
     '''Start Game'''
     count_wins = {"Human": 0, "CPU": 0}
     options_dict = {"rock": 1, "scissors": 2, "paper": 3}
