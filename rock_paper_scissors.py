@@ -47,7 +47,6 @@ def main():
         human_entry = valid_player_input("Entry paper, scissors or rock (x to exit):", options_dict)
         if human_entry == "x":
             break
-        system("clear")
         try:
             human_value = options_dict[human_entry]
         except KeyError:
